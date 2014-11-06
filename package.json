@@ -1,0 +1,25 @@
+{
+  "name": "uxrocket.tooltip",
+  "version": "1.1.3",
+  "description": "jQuery based Tooltip plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxrocket/uxrocket.tooltip.git"
+  },
+  "dependencies": {
+	"jquery": "latest"
+  },
+  "keywords": [
+    "jQuery",
+    "javascript",
+    "tooltip",
+    "popover",
+	"uxrocket"
+  ],
+  "author": "Bilal Cinarli <bcinarli@gmail.com> (http://bcinarli.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uxrocket/uxrocket.tooltip/issues"
+  },
+  "homepage": "https://github.com/uxrocket/uxrocket.tooltip"
+}
