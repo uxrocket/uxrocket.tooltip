@@ -50,7 +50,9 @@ onRemove             | Tooltip kapandıktan sonra çalışacak fonksiyonu çağ�
 ### Public Metodlar
 Metod						 | Açıklama
 ---------------------------- | -------------------------------------------------------
-$(selector).tooltip(options) | Bu method plugini manuel olarak bir elemana bağlamanızı sağlar.
-$.uxtooltip                  | Bu method pluginin detayını görmenizi sağlar.
-$.uxtooltip.version          | Sayfaya eklenmiş pluginin versiyon numarasını gösterir.
-$.uxtooltip.settings         | Aktif pluginin ayarlarını gösterir.
+$(selector).tooltip(options) {.method} | Bu method plugini manuel olarak bir elemana bağlamanızı sağlar.
+$.uxtooltip                  {.method} | Bu method pluginin detayını görmenizi sağlar.
+$.uxtooltip.update(el)       {.method} | İçeriği değiştirilen tooltipi güncellemeyi sağlar. __`el`__ gönderilmezse sayfadaki bütün tooltipleri günceller.
+$.uxtooltip.remove(el)       {.method} | Seçilen elemanda tooltip instance bilgisini ve tooltip aksiyonlarını kaldırır. __`el`__ gönderilmezse sayfadaki bütün tooltipleri kaldırır.
+$.uxtooltip.version          {.method} | Sayfaya eklenmiş pluginin versiyon numarasını gösterir.
+$.uxtooltip.settings         {.method} | Aktif pluginin ayarlarını gösterir.
