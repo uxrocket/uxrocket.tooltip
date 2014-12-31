@@ -1,4 +1,7 @@
-## Version 1.2.0
+## Versiyon 1.3.0
+- YENİ: Yeni tanımlanmaya başlayan, elemana bağlanmış uxRocket plugin listesi kontrolleri eklendi.
+
+## Versiyon 1.2.0
 - YENİ: $.uxtooltip.update metodu eklendi. Tooltip çalışma özellikleri ve içeriği değiştirdikten sonra tooltipi güncellemeye sağlar.
 - YENİ: $.uxtooltip.remove metodu eklendi. Belirtilen ya da sayfadaki tüm tooltipleri kaldırmayı sağlar.
 - YENİ: onUpdate callbacki eklendi. $.uxtooltip.update işleminden sonra çalışacak callbacki tanımlar.
