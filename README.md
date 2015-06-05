@@ -17,6 +17,19 @@ Gösterilecek içerik `data-content` attribute ile, sadece metin gösterimi duru
 * http://, https://, / şeklinde url ile, ajax sorgusu yapılır ve dönen sonuç içerik olarak gösterilir
 * myfunc() şeklinde window da tanımlı bir fonksiyon çalıştırılabilir.
 
+Tooltip içeriklerinin ve çalışma şeklinin tanımları `data` attributeleri ile yapıldığı için, güncelleme sırasında `$(".tooltip").attr('data-content', 'yeni içerik')` şeklinde yapılacak tanımlama işlemleri tooltipi güncelle__me__yecektir. `data` attribute güncellemelerinin `data()` fonksiyonu ile yapılması gerekmektedir.
+
+```JAVASCRIPT
+var $tooltip = $(".tooltip");
+// Yanlış güncelleme 
+$tooltip.attr('data-content', 'yeni içerik');
+$.uxtooltip.update($tooltip); // eski içerik görüntülenmeye devam edecektir
+
+// Doğru güncelleme
+$tooltip.data('content', 'yeni içerik');
+$.uxtooltip.update($tooltip); // yeni içerik görüntülenmeye başlayacaktır
+```
+Yukarıda belirtilen örnek ve güncelleme kullanımları `data` attribute ile belirlenen bütün tooltip özellikleri için geçerlidir.
 
 
 ### Tanımlar
