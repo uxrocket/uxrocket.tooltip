@@ -1,3 +1,6 @@
+## Versiyon 1.3.1
+- FIX: jQuery 3 ile kaldırılan `load` metodu, `on` versiyonu ile değiştirildi.
+
 ## Versiyon 1.3.0
 - YENİ: Yeni tanımlanmaya başlayan, elemana bağlanmış uxRocket plugin listesi kontrolleri eklendi.
 
