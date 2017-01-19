@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<title>UX Rocket Calendar Sample</title>
+		<meta charset="utf-8" />
+
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../lib/uxrocket.tooltip.js"></script>
+		<script>
+			$(function(){
+				$("#tooltip").tooltip({
+                    onBeforeOpen: function (event) {
+                        console.log(event);
+                    },
+					onOpen: function() {
+						console.log('Tooltip opened')
+					}
+                });
+			});
+		</script>
+        <link href="../lib/_uxrocket-tooltip.scss" rel="stylesheet" />
+
+		<style>
+			*, *:before, *:after { box-sizing: border-box }
+			body { margin: 0; padding: 0; font: 16px/1.4 "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+			.content { padding: 5em; }
+		</style>
+	</head>
+
+	<body>
+		<div class="content">
+			<div class="example">
+
+				<p class="wrap">
+					<input type="text" id="tooltip" data-content="http://localhost/uxrocket.tooltip/example/tooltip.json" />
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
