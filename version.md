@@ -1,3 +1,6 @@
+## Versiyon 1.4.0
+- YENİ: Tooltip görünür olmadan önce çalıştırılmak üzere `onBeforeOpen` event'i eklendi.
+
 ## Versiyon 1.3.1
 - FIX: jQuery 3 ile kaldırılan `load` metodu, `on` versiyonu ile değiştirildi.
 

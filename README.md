@@ -56,6 +56,7 @@ position                   | Tooltipin elemana göre pozisyonunu belirler. "cent
 Callback			 | &nbsp;
 -------------------- | -----
 onReady              | Tooltip, ilgili elemana bağlandığında çalışacak fonksiyonu çağırır.
+onBeforeOpen         | Tooltip için url'e sorgu atılmadan önce çalışacak fonksiyonu çağırır.
 onOpen               | Tooltip açıldığında çalışacak fonksiyonu çağırır.
 onClose              | Tooltip "popover" modundayken "x" ikonuna basıp kapatıldığında çalışacak fonksiyonu çağırır.
 onRemove             | Tooltip kapandıktan sonra çalışacak fonksiyonu çağırır.
