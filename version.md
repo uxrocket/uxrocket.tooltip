@@ -1,3 +1,5 @@
+## Versiyon 1.4.1
+- FIX: Close butonu tasarım sorunu düzeltildi.
 ## Versiyon 1.4.0
 - YENİ: Tooltip görünür olmadan önce çalıştırılmak üzere `onBeforeOpen` event'i eklendi.
 
