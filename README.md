@@ -51,7 +51,7 @@ content                    | Gösterilecek tooltip içeriğini tanımlar. data-c
 type                       | Tooltip görünüm formatını ("tooltip", "popover") belirler
 placement                  | Tooltipin elemanın ne tarafında gözükeceğini belirler.
 position                   | Tooltipin elemana göre pozisyonunu belirler. "center" tanımı, tooltip elemana ortalar. "start" tanımı, elemanın baş tarafına, "end" tanımı da son tarafına hizalar.
-
+cssclass                   | null             | Tooltip html template içerisine eklenecek CSS classını belirtir. Farklı tema kullanılmak için CSSde ilgili class tanımlaması yapılabilir.
 
 Callback			 | &nbsp;
 -------------------- | -----
