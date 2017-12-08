@@ -1,3 +1,5 @@
+## Versiyon 1.4.3
+- YENİ: instance undefined kontrolü
 ## Versiyon 1.4.2
 - YENİ: cssClass özelliğinin attribute olarakta eklenebilmesi sağlandı.
 
