@@ -1,5 +1,9 @@
+## Versiyon 1.4.7
+- YENİ: table satırlarında yapılan hover ile tooltip içeriğinin gelmesi 
+
 ## Versiyon 1.4.3
 - YENİ: instance undefined kontrolü
+
 ## Versiyon 1.4.2
 - YENİ: cssClass özelliğinin attribute olarakta eklenebilmesi sağlandı.
 
