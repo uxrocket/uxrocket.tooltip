@@ -10,7 +10,7 @@ $tooltip-version: 1.4.9;
 
 .tooltip-pop {
     position: absolute;
-    z-index: 10001;
+    z-index: 20001;
     max-width: 200px;
 
     &.tooltip-ajax-content {
